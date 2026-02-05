@@ -367,3 +367,17 @@ a{
     margin-left: 50%;
     margin-top: 2%;
 }
+.mail{
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.mail:hover{
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  transform: scale(1.05);
+}
